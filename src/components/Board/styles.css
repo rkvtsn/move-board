@@ -1,0 +1,11 @@
+.board {
+}
+
+.board .row {
+  transform-style: preserve-3d;
+}
+
+.board__grid {
+  transform: rotateX(60deg) rotateZ(-45deg);
+  transform-style: preserve-3d;
+}
